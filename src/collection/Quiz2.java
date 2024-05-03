@@ -8,9 +8,9 @@ public class Quiz2 {
 		
 		ArrayList<Book> list = new ArrayList<Book>();
 		
-		Book book1 = new Book(1001, "자바프로그래밍");
-		Book book2 = new Book(1002, "스프링");
-		Book book3 = new Book(1003, "DB구현과설계");
+//		Book book1 = new Book(1001, "자바프로그래밍");
+//		Book book2 = new Book(1002, "스프링");
+//		Book book3 = new Book(1003, "DB구현과설계");
 		
 		list.add(new Book(1001, "자바프로그래밍"));
 		list.add(new Book(1002, "스프링"));
@@ -19,6 +19,10 @@ public class Quiz2 {
 		System.out.println(list.get(0));
 		System.out.println(list.get(1));
 		System.out.println(list.get(2));
+		
+		for (int i = 0; i < list.size(); i++) {
+			System.out.println(list.get(i));
+		}
 		
 		list.clear();
 		
